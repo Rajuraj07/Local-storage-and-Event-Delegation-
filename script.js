@@ -52,7 +52,7 @@ function toggleDone(e) {
 }
 
 function deleteItem(index) {
-  if (confirm("Do you want to delete")) {
+  if (confirm("Do you want to delete?")) {
     items.splice(index, 1);
   }
   populateItems(items, itemsList);
